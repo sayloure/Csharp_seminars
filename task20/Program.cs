@@ -10,9 +10,9 @@ int X1 = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите Y для первой точки - ");
 int Y1 = Convert.ToInt32(Console.ReadLine());
 
-Console.Write("Введите X для первой точки - ");
+Console.Write("Введите X для второй точки - ");
 int X2 = Convert.ToInt32(Console.ReadLine());
-Console.Write("Введите Y для первой точки - ");
+Console.Write("Введите Y для второй точки - ");
 int Y2 = Convert.ToInt32(Console.ReadLine());
 
 int a = Y1 - Y2;

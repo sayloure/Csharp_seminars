@@ -8,15 +8,15 @@
 Console.Write("Введите число - ");
 int Num = Convert.ToInt32(Console.ReadLine());
 int count = 1;
-int mult = 0;
+int sqrt = 0;
 
 if (Num > 0)
 {
     while (count <= Num)
     {
-        mult = count * count;
+        sqrt = count * count;
         count = count + 1;
-        Console.Write($"{mult}, ");
+        Console.Write($"{sqrt}, ");
     }
 }
 else
@@ -24,9 +24,9 @@ else
     count = count * (-1);
     while (count >= Num)
     {
-        mult = count * count;
+        sqrt = count * count;
         count = count - 1;
-        Console.Write($"{mult}, ");
+        Console.Write($"{sqrt}, ");
     }
 }
 
